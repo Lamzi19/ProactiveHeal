@@ -1,6 +1,6 @@
 {
-  "name": "Remix: Remix: Remix: Remix: ProactiveHeal: Self-Healing Cloud AI",
-  "description": "A high-fidelity simulation of an AI-driven self-healing cloud infrastructure, featuring anomaly detection, predictive failure analysis, and LLM-powered root cause resolution.",
+  "name": "ProactiveHeal Autonomous Systems Dashboard",
+  "description": "An autonomous AI-Ops simulation platform featuring scenario-driven continuous telemetry, anomaly detection, predictive risk modeling, and a Veritas security governance rules engine.",
   "requestFramePermissions": [],
-  "majorCapabilities": []
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

@@ -60,3 +60,21 @@ export interface Incident {
   outcome: string;
   similarity: number;
 }
+
+export interface HistoricalIncident {
+  incident_id: string;
+  timestamp: string;
+  scenario: string;
+  severity: 'HIGH' | 'CRITICAL' | 'INFO' | 'WARN';
+  risk_score: number;
+  recommended_action: string;
+  veritas_decision: 'APPROVED' | 'REJECTED';
+  assigned_engineer: string;
+  resolution: string;
+  timeline?: Array<{
+    stage: string;
+    timestamp: string;
+    status: 'SUCCESS' | 'WARN' | 'ERROR' | 'INFO';
+  }>;
+}
+
